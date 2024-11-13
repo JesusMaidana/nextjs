@@ -2,9 +2,11 @@ import Link from "next/link";
 
 export default function Navbar () {
     return (
-        <nav>
-         <h1>NavBar</h1>
-         <ul>
+        <nav className="py-6 flex justify-between items-center bg-black">
+          <Link href="/">
+            <h1 className="text-3xl font-bold">Nextjs Curso</h1>
+          </Link>
+         <ul className="flex gap-4 list-none">
             <li>
               <Link href="/">Home</Link>
             </li>
