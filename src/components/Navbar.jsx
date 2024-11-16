@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar () {
     return (
-        <nav className="py-6 flex justify-between items-center bg-black">
+        <nav className="py-6 flex justify-between items-center bg-black px-4">
           <Link href="/">
             <h1 className="text-3xl font-bold">Nextjs Curso</h1>
           </Link>
